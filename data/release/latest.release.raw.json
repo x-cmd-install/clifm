@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 770188,
       "digest": "sha256:80be580f67d9da178a2f0d56e1ebf2812f947b49bd36790ff5f55232bfa14347",
-      "download_count": 638,
+      "download_count": 639,
       "created_at": "2026-05-28T03:19:36Z",
       "updated_at": "2026-05-28T03:19:38Z",
       "browser_download_url": "https://github.com/leo-arch/clifm/releases/download/v1.28/clifm-1.28-linux-x86_64.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 1669154,
       "digest": "sha256:65ac33825fb55d6388c1044572e464a50ad367b607448774fb396d850b7c4420",
-      "download_count": 441,
+      "download_count": 442,
       "created_at": "2026-05-28T03:08:34Z",
       "updated_at": "2026-05-28T03:08:36Z",
       "browser_download_url": "https://github.com/leo-arch/clifm/releases/download/v1.28/clifm-1.28.tar.gz"
