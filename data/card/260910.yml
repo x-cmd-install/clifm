@@ -2,20 +2,20 @@ about:
   description: "💾 The shell-like, command-line terminal file manager"
   license: NOASSERTION
   homepage: https://github.com/leo-arch/clifm/wiki
-  head: 57fd1e1
+  head: 16006f3
   archived: false
   latestVersion: "v1.28"
   latestRelease: "v1.28"
   latestPrerelease: "v1.19.11"
-  collectedAt: 2026-09-10T20:49:08Z
+  collectedAt: 2026-09-10T23:10:40Z
 timeline:
   created: 2018-02-19
-  lastCommit: 2026-09-09
+  lastCommit: 2026-09-10
   lastVersion: 2026-05-28
   lastRelease: 2026-05-28
   lastPrerelease: 2024-08-11
 popularity:
-  star: 1722
+  star: 1723
   watcher: 14
   fork: 52
   release: 50
@@ -23,14 +23,14 @@ popularity:
   pullRequest: 52
   issue: 239
 language:
-  C: 2540101
+  C: 2540186
   Roff: 220467
   Shell: 141687
   Python: 74828
   Makefile: 25172
   C++: 22059
   CMake: 3080
-totalBytes: 3027394
+totalBytes: 3027479
 recent:
   last30d:
     since: 2026-08-11
@@ -39,7 +39,7 @@ recent:
     openPR: 0
     closedIssue: 1
     openIssue: 1
-    commit: 68
+    commit: 71
   last60d:
     since: 2026-07-12
     release: 0
@@ -47,7 +47,7 @@ recent:
     openPR: 1
     closedIssue: 1
     openIssue: 1
-    commit: 219
+    commit: 222
   last90d:
     since: 2026-06-12
     release: 0
@@ -55,7 +55,7 @@ recent:
     openPR: 1
     closedIssue: 1
     openIssue: 3
-    commit: 303
+    commit: 306
   last180d:
     since: 2026-03-14
     release: 1
@@ -63,7 +63,7 @@ recent:
     openPR: 1
     closedIssue: 5
     openIssue: 4
-    commit: 476
+    commit: 479
   last360d:
     since: 2025-09-15
     release: 4
@@ -71,7 +71,7 @@ recent:
     openPR: 1
     closedIssue: 15
     openIssue: 8
-    commit: 1008
+    commit: 1011
   last720d:
     since: 2024-09-20
     release: 10
@@ -79,20 +79,20 @@ recent:
     openPR: 1
     closedIssue: 31
     openIssue: 12
-    commit: 2203
+    commit: 2206
 total:
   release: 50
   mergedPR: 42
   openPR: 1
   closedIssue: 213
   openIssue: 26
-  commit: 10454
+  commit: 10457
 ---
 path: /home/runner/.x-repo/github.com/leo-arch/clifm
-collectedAt: 2026-09-10T20:49:17Z
+collectedAt: 2026-09-10T23:10:51Z
 loc:
   C:
-    code: 63874
+    code: 63877
     comments: 5642
     blanks: 11255
     files: 59
@@ -152,7 +152,7 @@ loc:
     blanks: 230
     files: 3
 total:
-  code: 80121
+  code: 80124
   comments: 8663
   blanks: 13728
   files: 191
