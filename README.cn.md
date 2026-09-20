@@ -4,7 +4,7 @@
 
 💾 The shell-like, command-line terminal file manager
 
-![clifm](https://repo.x-cmd.io/clifm.svg?lang=zh)
+[![x-cmd/install — clifm Code Quality Monitoring Repo Card](https://repo.x-cmd.io/clifm.svg?lang=zh)](https://x-cmd.com/install/clifm)
 
 ## 安装
 
@@ -14,11 +14,11 @@ x install clifm
 
 ## 代码洞察
 
-合计: **80,095** 行代码（覆盖前 5 种语言、共 **178** 个文件）。
+合计: **80,100** 行代码（覆盖前 5 种语言、共 **178** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 63,907 | 5,645 | 11,257 | 59 |
+| C | 63,912 | 5,645 | 11,257 | 59 |
 | CHeader | 9,768 | 1,426 | 1,073 | 71 |
 | Sh | 3,043 | 732 | 672 | 39 |
 | Python | 1,864 | 169 | 294 | 2 |
@@ -32,8 +32,8 @@ x install clifm
 
 ## 发布
 
-- **最新版本**: `v1.28` (2026-05-28)
-- **最近提交**: 2026-09-15
+- **最新版本**: `v1.29` (2026-09-18)
+- **最近提交**: 2026-09-19
 - **Release 含资产**: 3 个
 
 ## 流行度
@@ -42,26 +42,26 @@ x install clifm
 
 ## 累计统计
 
-- **发布数**: 50 · **已合并 PR**: 42 · **开放 PR**: 1 · **已关闭 issue**: 214 · **开放 issue**: 26 · **提交数**: 10460
+- **发布数**: 51 · **已合并 PR**: 42 · **开放 PR**: 0 · **已关闭 issue**: 214 · **开放 issue**: 26 · **提交数**: 10465
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 0 | 1 | 1 | 54 |
-| last60d | 2026-07-20 | 0 | 0 | 1 | 2 | 1 | 208 |
-| 90d | 2026-06-20 | 0 | 0 | 1 | 2 | 1 | 289 |
-| last180d | 2026-03-22 | 1 | 2 | 1 | 6 | 4 | 466 |
-| 360d | 2025-09-23 | 4 | 6 | 1 | 16 | 7 | 1013 |
-| last720d | 2024-09-28 | 10 | 9 | 1 | 32 | 10 | 2183 |
+| 30d | 2026-08-21 | 1 | 0 | 0 | 1 | 1 | 41 |
+| last60d | 2026-07-22 | 1 | 0 | 0 | 2 | 1 | 176 |
+| 90d | 2026-06-22 | 1 | 0 | 0 | 2 | 1 | 287 |
+| last180d | 2026-03-24 | 2 | 2 | 0 | 6 | 4 | 461 |
+| 360d | 2025-09-25 | 5 | 6 | 0 | 16 | 7 | 1012 |
+| last720d | 2024-09-30 | 11 | 9 | 0 | 32 | 10 | 2185 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [clifm-1.28-linux-x86_64.tar.gz](https://github.com/leo-arch/clifm/releases/download/v1.28/clifm-1.28-linux-x86_64.tar.gz) | 752.1 KiB | `native/linux/x64` |
-| [clifm-1.28.tar.gz](https://github.com/leo-arch/clifm/releases/download/v1.28/clifm-1.28.tar.gz) | 1.6 MiB | `native/unknown` |
-| [clifm-1.28.tar.gz.sha256](https://github.com/leo-arch/clifm/releases/download/v1.28/clifm-1.28.tar.gz.sha256) | 84 B | `other` |
+| [clifm-1.29-linux-x86_64.tar.gz](https://github.com/leo-arch/clifm/releases/download/v1.29/clifm-1.29-linux-x86_64.tar.gz) | 1.5 MiB | `native/linux/x64` |
+| [clifm-1.29.tar.gz](https://github.com/leo-arch/clifm/releases/download/v1.29/clifm-1.29.tar.gz) | 1.6 MiB | `native/unknown` |
+| [clifm-1.29.tar.gz.sha256](https://github.com/leo-arch/clifm/releases/download/v1.29/clifm-1.29.tar.gz.sha256) | 84 B | `other` |
 
 ## 改进这些数据
 
@@ -72,4 +72,4 @@ clifm 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T05:25:05Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T05:25:06Z._
