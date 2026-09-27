@@ -48,12 +48,12 @@ Total: **80,100** lines of code across **178** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-27 | 1 | 0 | 0 | 1 | 1 | 41 |
-| last60d | 2026-07-28 | 1 | 0 | 0 | 2 | 1 | 176 |
-| 90d | 2026-06-28 | 1 | 0 | 0 | 2 | 1 | 287 |
-| last180d | 2026-03-30 | 2 | 2 | 0 | 5 | 3 | 461 |
-| 360d | 2025-10-01 | 4 | 6 | 0 | 14 | 7 | 1012 |
-| last720d | 2024-10-06 | 10 | 9 | 0 | 32 | 10 | 2160 |
+| 30d | 2026-08-28 | 1 | 0 | 0 | 1 | 1 | 19 |
+| last60d | 2026-07-29 | 1 | 0 | 0 | 2 | 1 | 123 |
+| 90d | 2026-06-29 | 1 | 0 | 0 | 2 | 1 | 276 |
+| last180d | 2026-03-31 | 2 | 2 | 0 | 5 | 3 | 452 |
+| 360d | 2025-10-02 | 4 | 6 | 0 | 14 | 7 | 1012 |
+| last720d | 2024-10-07 | 10 | 9 | 0 | 32 | 10 | 2155 |
 
 ## Release assets
 
@@ -72,4 +72,4 @@ Install metadata for clifm lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260926.yml` · 2026-09-26T05:18:16Z._
+_Snapshot: `data/card/260927.yml` · 2026-09-27T05:43:32Z._
