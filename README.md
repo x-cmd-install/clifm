@@ -14,11 +14,11 @@ x install clifm
 
 ## Code insight
 
-Total: **80,100** lines of code across **178** files in the top 5 languages.
+Total: **80,123** lines of code across **178** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 63,912 | 5,645 | 11,257 | 59 |
+| C | 63,935 | 5,645 | 11,257 | 59 |
 | CHeader | 9,768 | 1,426 | 1,073 | 71 |
 | Sh | 3,043 | 732 | 672 | 39 |
 | Python | 1,864 | 169 | 294 | 2 |
@@ -33,27 +33,27 @@ Total: **80,100** lines of code across **178** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v1.29` (2026-09-18)
-- **Last commit**: 2026-09-19
+- **Last commit**: 2026-09-29
 - **Assets in release**: 3
 
 ## Popularity
 
-- **Stars**: 1,728 · **Forks**: 52 · **Open issues**: 240 · **Contributors**: 26
+- **Stars**: 1,728 · **Forks**: 53 · **Open issues**: 240 · **Contributors**: 26
 
 ## Totals (cumulative)
 
-- **Releases**: 51 · **Merged PRs**: 42 · **Open PRs**: 0 · **Closed issues**: 214 · **Open issues**: 26 · **Commits**: 10465
+- **Releases**: 51 · **Merged PRs**: 42 · **Open PRs**: 0 · **Closed issues**: 214 · **Open issues**: 26 · **Commits**: 10467
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 1 | 0 | 0 | 1 | 1 | 19 |
-| last60d | 2026-07-31 | 1 | 0 | 0 | 2 | 1 | 123 |
-| 90d | 2026-07-01 | 1 | 0 | 0 | 2 | 1 | 276 |
-| last180d | 2026-04-02 | 2 | 2 | 0 | 5 | 3 | 452 |
-| 360d | 2025-10-04 | 4 | 6 | 0 | 14 | 7 | 1012 |
-| last720d | 2024-10-09 | 10 | 9 | 0 | 32 | 10 | 2150 |
+| 30d | 2026-08-31 | 1 | 0 | 0 | 1 | 1 | 21 |
+| last60d | 2026-08-01 | 1 | 0 | 0 | 2 | 1 | 125 |
+| 90d | 2026-07-02 | 1 | 0 | 0 | 2 | 1 | 278 |
+| last180d | 2026-04-03 | 2 | 2 | 0 | 5 | 3 | 454 |
+| 360d | 2025-10-05 | 4 | 6 | 0 | 14 | 7 | 1014 |
+| last720d | 2024-10-10 | 10 | 9 | 0 | 32 | 10 | 2148 |
 
 ## Release assets
 
@@ -72,4 +72,4 @@ Install metadata for clifm lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T06:07:41Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T05:56:27Z._
