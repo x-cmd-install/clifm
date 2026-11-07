@@ -1,16 +1,3 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: clifm
-  binnames:
-    - clifm
-  visiblename: clifm
-  version: "1.29"
-  origversion: 1.29-1
-  status: newest
-  maintainers:
-    - krekhov.dev@gmail.com
-  categories:
-    - utils
 - repo: alpine_3_17
   subrepo: community
   srcname: clifm
@@ -115,17 +102,6 @@
     - sod@sodface.com
   licenses:
     - GPL-2.0-or-later
-- repo: nix_stable_25_11
-  srcname: clifm
-  visiblename: clifm
-  version: 1.26.3
-  origversion: null
-  status: outdated
-  summary: CLI-based, shell-like, and non-curses terminal file manager
-  maintainers:
-    - nadir-ishiguro@github
-  licenses:
-    - GPL-2.0-or-later
 - repo: alpine_3_19
   subrepo: community
   srcname: clifm
@@ -256,19 +232,6 @@
     - sod@sodface.com
   licenses:
     - GPL-2.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: clifm
-  binname: clifm
-  visiblename: clifm
-  version: "1.28"
-  origversion: 1.28-r1
-  status: outdated
-  summary: CLI file manager
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-2.0-or-later
 - repo: alpine_3_21
   subrepo: community
   srcname: clifm
@@ -319,292 +282,6 @@
   summary: Fish completions for clifm
   maintainers:
     - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: clifm
-  binname: clifm-zsh-completion
-  visiblename: clifm-zsh-completion
-  version: "1.22"
-  origversion: 1.22-r0
-  status: outdated
-  summary: Zsh completions for clifm
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: clifm
-  binname: clifm
-  visiblename: clifm
-  version: "1.25"
-  origversion: 1.25-r0
-  status: outdated
-  summary: CLI file manager
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: clifm
-  binname: clifm-bash-completion
-  visiblename: clifm-bash-completion
-  version: "1.25"
-  origversion: 1.25-r0
-  status: outdated
-  summary: Bash completions for clifm
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: clifm
-  binname: clifm-doc
-  visiblename: clifm-doc
-  version: "1.25"
-  origversion: 1.25-r0
-  status: outdated
-  summary: CLI file manager (documentation)
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: clifm
-  binname: clifm-fish-completion
-  visiblename: clifm-fish-completion
-  version: "1.25"
-  origversion: 1.25-r0
-  status: outdated
-  summary: Fish completions for clifm
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: clifm
-  binname: clifm-zsh-completion
-  visiblename: clifm-zsh-completion
-  version: "1.25"
-  origversion: 1.25-r0
-  status: outdated
-  summary: Zsh completions for clifm
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: debian_14
-  subrepo: forky/main
-  srcname: clifm
-  binnames:
-    - clifm
-  visiblename: clifm
-  version: "1.29"
-  origversion: 1.29-1
-  status: newest
-  maintainers:
-    - krekhov.dev@gmail.com
-  categories:
-    - utils
-- repo: alpine_3_23
-  subrepo: community
-  srcname: clifm
-  binname: clifm
-  visiblename: clifm
-  version: 1.26.3
-  origversion: 1.26.3-r0
-  status: outdated
-  summary: CLI file manager
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: clifm
-  binname: clifm-bash-completion
-  visiblename: clifm-bash-completion
-  version: 1.26.3
-  origversion: 1.26.3-r0
-  status: outdated
-  summary: Bash completions for clifm
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: clifm
-  binname: clifm-doc
-  visiblename: clifm-doc
-  version: 1.26.3
-  origversion: 1.26.3-r0
-  status: outdated
-  summary: CLI file manager (documentation)
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: clifm
-  binname: clifm-fish-completion
-  visiblename: clifm-fish-completion
-  version: 1.26.3
-  origversion: 1.26.3-r0
-  status: outdated
-  summary: Fish completions for clifm
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: clifm
-  binname: clifm-zsh-completion
-  visiblename: clifm-zsh-completion
-  version: 1.26.3
-  origversion: 1.26.3-r0
-  status: outdated
-  summary: Zsh completions for clifm
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: clifm
-  binname: clifm
-  visiblename: clifm
-  version: "1.28"
-  origversion: 1.28-r0
-  status: outdated
-  summary: CLI file manager
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: clifm
-  binname: clifm-bash-completion
-  visiblename: clifm-bash-completion
-  version: "1.28"
-  origversion: 1.28-r0
-  status: outdated
-  summary: Bash completions for clifm
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: clifm
-  binname: clifm-doc
-  visiblename: clifm-doc
-  version: "1.28"
-  origversion: 1.28-r0
-  status: outdated
-  summary: CLI file manager (documentation)
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: clifm
-  binname: clifm-fish-completion
-  visiblename: clifm-fish-completion
-  version: "1.28"
-  origversion: 1.28-r0
-  status: outdated
-  summary: Fish completions for clifm
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: clifm
-  binname: clifm-zsh-completion
-  visiblename: clifm-zsh-completion
-  version: "1.28"
-  origversion: 1.28-r0
-  status: outdated
-  summary: Zsh completions for clifm
-  maintainers:
-    - sod@sodface.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: clifm
-  binnames:
-    - clifm
-  visiblename: clifm
-  version: "1.29"
-  origversion: 1.29-1
-  status: newest
-  maintainers:
-    - krekhov.dev@gmail.com
-  categories:
-    - utils
-- repo: alpine_edge
-  subrepo: community
-  srcname: clifm
-  binname: clifm-bash-completion
-  visiblename: clifm-bash-completion
-  version: "1.28"
-  origversion: 1.28-r1
-  status: outdated
-  summary: Bash completions for clifm
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: clifm
-  binname: clifm-doc
-  visiblename: clifm-doc
-  version: "1.28"
-  origversion: 1.28-r1
-  status: outdated
-  summary: CLI file manager (documentation)
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: clifm
-  binname: clifm-fish-completion
-  visiblename: clifm-fish-completion
-  version: "1.28"
-  origversion: 1.28-r1
-  status: outdated
-  summary: Fish completions for clifm
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: clifm
-  binname: clifm-zsh-completion
-  visiblename: clifm-zsh-completion
-  version: "1.28"
-  origversion: 1.28-r1
-  status: outdated
-  summary: Zsh completions for clifm
-  maintainers:
-    - fallback-mnt-alpine@repology
   licenses:
     - GPL-2.0-or-later
 - repo: altsisyphus
@@ -623,6 +300,136 @@
     - GPL-2.0
   categories:
     - File tools
+- repo: alpine_3_21
+  subrepo: community
+  srcname: clifm
+  binname: clifm-zsh-completion
+  visiblename: clifm-zsh-completion
+  version: "1.22"
+  origversion: 1.22-r0
+  status: outdated
+  summary: Zsh completions for clifm
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: clifm
+  binname: clifm
+  visiblename: clifm
+  version: "1.25"
+  origversion: 1.25-r0
+  status: outdated
+  summary: CLI file manager
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: clifm
+  binname: clifm-bash-completion
+  visiblename: clifm-bash-completion
+  version: "1.25"
+  origversion: 1.25-r0
+  status: outdated
+  summary: Bash completions for clifm
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: clifm
+  binname: clifm-doc
+  visiblename: clifm-doc
+  version: "1.25"
+  origversion: 1.25-r0
+  status: outdated
+  summary: CLI file manager (documentation)
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: clifm
+  binname: clifm-fish-completion
+  visiblename: clifm-fish-completion
+  version: "1.25"
+  origversion: 1.25-r0
+  status: outdated
+  summary: Fish completions for clifm
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: clifm
+  binname: clifm-zsh-completion
+  visiblename: clifm-zsh-completion
+  version: "1.25"
+  origversion: 1.25-r0
+  status: outdated
+  summary: Zsh completions for clifm
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: clifm
+  binname: clifm
+  visiblename: clifm
+  version: 1.26.3
+  origversion: 1.26.3-r0
+  status: outdated
+  summary: CLI file manager
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: clifm
+  binname: clifm-bash-completion
+  visiblename: clifm-bash-completion
+  version: 1.26.3
+  origversion: 1.26.3-r0
+  status: outdated
+  summary: Bash completions for clifm
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: clifm
+  binname: clifm-doc
+  visiblename: clifm-doc
+  version: 1.26.3
+  origversion: 1.26.3-r0
+  status: outdated
+  summary: CLI file manager (documentation)
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: clifm
+  binname: clifm-fish-completion
+  visiblename: clifm-fish-completion
+  version: 1.26.3
+  origversion: 1.26.3-r0
+  status: outdated
+  summary: Fish completions for clifm
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
 - repo: aur
   srcname: clifm
   binname: clifm
@@ -633,6 +440,149 @@
   summary: The command line file manager
   maintainers:
     - archcrack@aur
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: clifm
+  binname: clifm-zsh-completion
+  visiblename: clifm-zsh-completion
+  version: 1.26.3
+  origversion: 1.26.3-r0
+  status: outdated
+  summary: Zsh completions for clifm
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: clifm
+  binname: clifm
+  visiblename: clifm
+  version: "1.28"
+  origversion: 1.28-r0
+  status: outdated
+  summary: CLI file manager
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: clifm
+  binname: clifm-bash-completion
+  visiblename: clifm-bash-completion
+  version: "1.28"
+  origversion: 1.28-r0
+  status: outdated
+  summary: Bash completions for clifm
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: clifm
+  binname: clifm-doc
+  visiblename: clifm-doc
+  version: "1.28"
+  origversion: 1.28-r0
+  status: outdated
+  summary: CLI file manager (documentation)
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: clifm
+  binname: clifm-fish-completion
+  visiblename: clifm-fish-completion
+  version: "1.28"
+  origversion: 1.28-r0
+  status: outdated
+  summary: Fish completions for clifm
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: clifm
+  binname: clifm-zsh-completion
+  visiblename: clifm-zsh-completion
+  version: "1.28"
+  origversion: 1.28-r0
+  status: outdated
+  summary: Zsh completions for clifm
+  maintainers:
+    - sod@sodface.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: clifm
+  binname: clifm
+  visiblename: clifm
+  version: "1.28"
+  origversion: 1.28-r1
+  status: outdated
+  summary: CLI file manager
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: clifm
+  binname: clifm-bash-completion
+  visiblename: clifm-bash-completion
+  version: "1.28"
+  origversion: 1.28-r1
+  status: outdated
+  summary: Bash completions for clifm
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: clifm
+  binname: clifm-doc
+  visiblename: clifm-doc
+  version: "1.28"
+  origversion: 1.28-r1
+  status: outdated
+  summary: CLI file manager (documentation)
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: clifm
+  binname: clifm-fish-completion
+  visiblename: clifm-fish-completion
+  version: "1.28"
+  origversion: 1.28-r1
+  status: outdated
+  summary: Fish completions for clifm
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: clifm
+  binname: clifm-zsh-completion
+  visiblename: clifm-zsh-completion
+  version: "1.28"
+  origversion: 1.28-r1
+  status: outdated
+  summary: Zsh completions for clifm
+  maintainers:
+    - fallback-mnt-alpine@repology
   licenses:
     - GPL-2.0-or-later
 - repo: aur
@@ -714,6 +664,45 @@
   summary: Shell-like, command line terminal file manager (zsh completions)
   licenses:
     - GPL-2.0-or-later
+- repo: debian_14
+  subrepo: forky/main
+  srcname: clifm
+  binnames:
+    - clifm
+  visiblename: clifm
+  version: "1.29"
+  origversion: 1.29-1
+  status: newest
+  maintainers:
+    - krekhov.dev@gmail.com
+  categories:
+    - utils
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: clifm
+  binnames:
+    - clifm
+  visiblename: clifm
+  version: "1.29"
+  origversion: 1.29-1
+  status: newest
+  maintainers:
+    - krekhov.dev@gmail.com
+  categories:
+    - utils
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: clifm
+  binnames:
+    - clifm
+  visiblename: clifm
+  version: "1.29"
+  origversion: 1.29-1
+  status: newest
+  maintainers:
+    - krekhov.dev@gmail.com
+  categories:
+    - utils
 - repo: epel_8
   srcname: clifm
   visiblename: clifm
@@ -755,6 +744,19 @@
     - GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only
   categories:
     - Unspecified
+- repo: raspbian_testing
+  subrepo: main
+  srcname: clifm
+  binnames:
+    - clifm
+  visiblename: clifm
+  version: "1.29"
+  origversion: 1.29-1
+  status: newest
+  maintainers:
+    - krekhov.dev@gmail.com
+  categories:
+    - utils
 - repo: exherbo
   subrepo: dendron
   srcname: app-misc/clifm
@@ -768,22 +770,6 @@
   categories:
     - app-misc
 - repo: fedora_39
-  subrepo: updates
-  srcname: clifm
-  binnames:
-    - clifm
-    - clifm-debuginfo
-    - clifm-debugsource
-  visiblename: clifm
-  version: "1.17"
-  origversion: 1.17-1.fc39
-  status: outdated
-  summary: Shell-like, command line terminal file manager
-  licenses:
-    - GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: release
   srcname: clifm
   binnames:
@@ -794,6 +780,22 @@
   version: "1.10"
   origversion: 1.10-2.fc39
   status: legacy
+  summary: Shell-like, command line terminal file manager
+  licenses:
+    - GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: updates
+  srcname: clifm
+  binnames:
+    - clifm
+    - clifm-debuginfo
+    - clifm-debugsource
+  visiblename: clifm
+  version: "1.17"
+  origversion: 1.17-1.fc39
+  status: outdated
   summary: Shell-like, command line terminal file manager
   licenses:
     - GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only
@@ -816,20 +818,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: updates
-  srcname: clifm
-  binnames:
-    - clifm
-  visiblename: clifm
-  version: 1.26.3
-  origversion: 1.26.3-1.fc41
-  status: outdated
-  summary: Shell-like, command line terminal file manager
-  licenses:
-    - GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: release
   srcname: clifm
   binnames:
@@ -843,15 +831,15 @@
     - GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only
   categories:
     - Unspecified
-- repo: fedora_42
-  subrepo: release
+- repo: fedora_41
+  subrepo: updates
   srcname: clifm
   binnames:
     - clifm
   visiblename: clifm
-  version: "1.22"
-  origversion: 1.22-2.fc42
-  status: legacy
+  version: 1.26.3
+  origversion: 1.26.3-1.fc41
+  status: outdated
   summary: Shell-like, command line terminal file manager
   licenses:
     - GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only
@@ -866,6 +854,20 @@
   version: 1.26.3
   origversion: 1.26.3-1.fc42
   status: outdated
+  summary: Shell-like, command line terminal file manager
+  licenses:
+    - GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: clifm
+  binnames:
+    - clifm
+  visiblename: clifm
+  version: "1.22"
+  origversion: 1.22-2.fc42
+  status: legacy
   summary: Shell-like, command line terminal file manager
   licenses:
     - GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only
@@ -886,20 +888,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: release
-  srcname: clifm
-  binnames:
-    - clifm
-  visiblename: clifm
-  version: 1.26.3
-  origversion: 1.26.3-3.fc44
-  status: legacy
-  summary: Shell-like, command line terminal file manager
-  licenses:
-    - GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: updates
   srcname: clifm
   binnames:
@@ -908,6 +896,20 @@
   version: "1.28"
   origversion: 1.28-1.fc44
   status: outdated
+  summary: Shell-like, command line terminal file manager
+  licenses:
+    - GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: clifm
+  binnames:
+    - clifm
+  visiblename: clifm
+  version: 1.26.3
+  origversion: 1.26.3-3.fc44
+  status: legacy
   summary: Shell-like, command line terminal file manager
   licenses:
     - GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only
@@ -1210,6 +1212,17 @@
     - nadir-ishiguro@github
   licenses:
     - GPL-2.0-or-later
+- repo: nix_stable_25_11
+  srcname: clifm
+  visiblename: clifm
+  version: 1.26.3
+  origversion: null
+  status: outdated
+  summary: CLI-based, shell-like, and non-curses terminal file manager
+  maintainers:
+    - nadir-ishiguro@github
+  licenses:
+    - GPL-2.0-or-later
 - repo: nix_stable_26_05
   srcname: clifm
   visiblename: clifm
@@ -1232,25 +1245,12 @@
     - nadir-ishiguro@github
   licenses:
     - GPL-2.0-or-later
-- repo: raspbian_testing
-  subrepo: main
-  srcname: clifm
-  binnames:
-    - clifm
-  visiblename: clifm
-  version: "1.29"
-  origversion: 1.29-1
-  status: newest
-  maintainers:
-    - krekhov.dev@gmail.com
-  categories:
-    - utils
 - repo: slackbuilds
   srcname: system/clifm
   visiblename: system/clifm
-  version: "1.28"
+  version: "1.29"
   origversion: null
-  status: outdated
+  status: newest
   maintainers:
     - fredg@zaclys.net
   categories:
@@ -1322,6 +1322,19 @@
   version: "1.28"
   origversion: 1.28-1
   status: outdated
+  maintainers:
+    - krekhov.dev@gmail.com
+  categories:
+    - universe/utils
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: clifm
+  binnames:
+    - clifm
+  visiblename: clifm
+  version: "1.29"
+  origversion: 1.29-1
+  status: newest
   maintainers:
     - krekhov.dev@gmail.com
   categories:
