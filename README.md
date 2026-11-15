@@ -38,22 +38,22 @@ Total: **80,130** lines of code across **178** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,736 · **Forks**: 53 · **Open issues**: 228 · **Contributors**: 27
+- **Stars**: 1,736 · **Forks**: 53 · **Open issues**: 229 · **Contributors**: 27
 
 ## Totals (cumulative)
 
-- **Releases**: 51 · **Merged PRs**: 44 · **Open PRs**: 0 · **Closed issues**: 202 · **Open issues**: 26 · **Commits**: 10477
+- **Releases**: 51 · **Merged PRs**: 44 · **Open PRs**: 0 · **Closed issues**: 202 · **Open issues**: 27 · **Commits**: 10477
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 0 | 0 | 0 | 1 | 0 | 2 |
-| last60d | 2026-09-15 | 1 | 2 | 0 | 2 | 0 | 17 |
-| 90d | 2026-08-16 | 1 | 2 | 0 | 4 | 1 | 80 |
-| last180d | 2026-05-18 | 2 | 3 | 0 | 4 | 3 | 391 |
-| 360d | 2025-11-19 | 4 | 8 | 0 | 11 | 7 | 984 |
-| last720d | 2024-11-24 | 9 | 11 | 0 | 34 | 9 | 1945 |
+| 30d | 2026-10-16 | 0 | 0 | 0 | 1 | 1 | 1 |
+| last60d | 2026-09-16 | 1 | 2 | 0 | 2 | 1 | 12 |
+| 90d | 2026-08-17 | 1 | 2 | 0 | 4 | 2 | 53 |
+| last180d | 2026-05-19 | 2 | 2 | 0 | 4 | 4 | 366 |
+| 360d | 2025-11-20 | 4 | 8 | 0 | 11 | 8 | 970 |
+| last720d | 2024-11-25 | 9 | 11 | 0 | 34 | 10 | 1944 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for clifm lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T06:56:05Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T06:56:08Z._
