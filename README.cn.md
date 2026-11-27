@@ -14,11 +14,11 @@ x install clifm
 
 ## 代码洞察
 
-合计: **80,146** 行代码（覆盖前 5 种语言、共 **178** 个文件）。
+合计: **80,150** 行代码（覆盖前 5 种语言、共 **178** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 63,958 | 5,648 | 11,261 | 59 |
+| C | 63,962 | 5,649 | 11,262 | 59 |
 | CHeader | 9,768 | 1,426 | 1,073 | 71 |
 | Sh | 3,043 | 732 | 672 | 39 |
 | Python | 1,864 | 169 | 294 | 2 |
@@ -33,27 +33,27 @@ x install clifm
 ## 发布
 
 - **最新版本**: `v1.29` (2026-09-18)
-- **最近提交**: 2026-11-18
+- **最近提交**: 2026-11-26
 - **Release 含资产**: 3 个
 
 ## 流行度
 
-- **Star**: 1,739 · **Fork**: 56 · **开放 issue**: 229 · **贡献者**: 28
+- **Star**: 1,739 · **Fork**: 56 · **开放 issue**: 229 · **贡献者**: 29
 
 ## 累计统计
 
-- **发布数**: 51 · **已合并 PR**: 45 · **开放 PR**: 1 · **已关闭 issue**: 204 · **开放 issue**: 25 · **提交数**: 10482
+- **发布数**: 51 · **已合并 PR**: 46 · **开放 PR**: 0 · **已关闭 issue**: 204 · **开放 issue**: 25 · **提交数**: 10484
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 1 | 1 | 1 | 0 | 6 |
-| last60d | 2026-09-27 | 0 | 3 | 1 | 3 | 0 | 15 |
-| 90d | 2026-08-28 | 1 | 3 | 1 | 4 | 1 | 50 |
-| last180d | 2026-05-30 | 1 | 3 | 1 | 6 | 2 | 357 |
-| 360d | 2025-12-01 | 4 | 9 | 1 | 12 | 6 | 946 |
-| last720d | 2024-12-06 | 9 | 12 | 1 | 35 | 8 | 1887 |
+| 30d | 2026-10-28 | 0 | 2 | 0 | 1 | 0 | 8 |
+| last60d | 2026-09-28 | 0 | 4 | 0 | 3 | 0 | 17 |
+| 90d | 2026-08-29 | 1 | 4 | 0 | 4 | 1 | 52 |
+| last180d | 2026-05-31 | 1 | 4 | 0 | 6 | 2 | 359 |
+| 360d | 2025-12-02 | 4 | 10 | 0 | 12 | 6 | 948 |
+| last720d | 2024-12-07 | 9 | 13 | 0 | 34 | 8 | 1887 |
 
 ## Release 资产
 
@@ -62,6 +62,21 @@ x install clifm
 | [clifm-1.29-linux-x86_64.tar.gz](https://github.com/leo-arch/clifm/releases/download/v1.29/clifm-1.29-linux-x86_64.tar.gz) | 1.5 MiB | `native/linux/x64` |
 | [clifm-1.29.tar.gz](https://github.com/leo-arch/clifm/releases/download/v1.29/clifm-1.29.tar.gz) | 1.6 MiB | `native/unknown` |
 | [clifm-1.29.tar.gz.sha256](https://github.com/leo-arch/clifm/releases/download/v1.29/clifm-1.29.tar.gz.sha256) | 84 B | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/clifm) 上共有 **108** 个发行版报告此项目。**25** 个 ✅ 已是最新上游版本，**66** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.29` | ✅ latest |
+| Debian 14 | `1.29` | ✅ latest |
+| Ubuntu 26.04 LTS | `1.26.3` | ⚠️ outdated |
+| Homebrew | `1.29` | ✅ latest |
+| Fedora rawhide | `1.28` | ⚠️ outdated |
+| Nix unstable | `1.29` | ✅ latest |
+| Void | `1.29` | ✅ latest |
+| Alpine edge | `1.28` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -72,4 +87,4 @@ clifm 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261126.yml` · 2026-11-26T08:50:00Z._
+_数据快照: `data/card/261127.yml` · 2026-11-27T09:05:25Z._
