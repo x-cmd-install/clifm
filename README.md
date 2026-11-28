@@ -38,7 +38,7 @@ Total: **80,150** lines of code across **178** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,739 · **Forks**: 56 · **Open issues**: 229 · **Contributors**: 29
+- **Stars**: 1,740 · **Forks**: 56 · **Open issues**: 229 · **Contributors**: 29
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **80,150** lines of code across **178** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 2 | 0 | 1 | 0 | 8 |
-| last60d | 2026-09-28 | 0 | 4 | 0 | 3 | 0 | 17 |
-| 90d | 2026-08-29 | 1 | 4 | 0 | 4 | 1 | 52 |
-| last180d | 2026-05-31 | 1 | 4 | 0 | 6 | 2 | 359 |
-| 360d | 2025-12-02 | 4 | 10 | 0 | 12 | 6 | 948 |
-| last720d | 2024-12-07 | 9 | 13 | 0 | 34 | 8 | 1887 |
+| 30d | 2026-10-29 | 0 | 2 | 0 | 1 | 0 | 8 |
+| last60d | 2026-09-29 | 0 | 4 | 0 | 3 | 0 | 17 |
+| 90d | 2026-08-30 | 1 | 4 | 0 | 4 | 1 | 52 |
+| last180d | 2026-06-01 | 1 | 4 | 0 | 6 | 2 | 359 |
+| 360d | 2025-12-03 | 4 | 10 | 0 | 12 | 6 | 948 |
+| last720d | 2024-12-08 | 9 | 13 | 0 | 34 | 8 | 1883 |
 
 ## Release assets
 
@@ -62,21 +62,6 @@ Total: **80,150** lines of code across **178** files in the top 5 languages.
 | [clifm-1.29-linux-x86_64.tar.gz](https://github.com/leo-arch/clifm/releases/download/v1.29/clifm-1.29-linux-x86_64.tar.gz) | 1.5 MiB | `native/linux/x64` |
 | [clifm-1.29.tar.gz](https://github.com/leo-arch/clifm/releases/download/v1.29/clifm-1.29.tar.gz) | 1.6 MiB | `native/unknown` |
 | [clifm-1.29.tar.gz.sha256](https://github.com/leo-arch/clifm/releases/download/v1.29/clifm-1.29.tar.gz.sha256) | 84 B | `other` |
-
-## Distribution status
-
-Reported by **108** distros on [repology.org](https://repology.org/project/clifm). **25** are ✅ on the latest upstream release, **66** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.29` | ✅ latest |
-| Debian 14 | `1.29` | ✅ latest |
-| Ubuntu 26.04 LTS | `1.26.3` | ⚠️ outdated |
-| Homebrew | `1.29` | ✅ latest |
-| Fedora rawhide | `1.28` | ⚠️ outdated |
-| Nix unstable | `1.29` | ✅ latest |
-| Void | `1.29` | ✅ latest |
-| Alpine edge | `1.28` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -87,4 +72,4 @@ Install metadata for clifm lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T09:05:25Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T08:55:31Z._
